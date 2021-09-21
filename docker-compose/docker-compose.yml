@@ -21,6 +21,8 @@ services:
       - "2"
       - "--post-buffering"
       - "1"
+      - "--socket-timeout"
+      - "1200"
       - "--die-on-term"
       - "--manage-script-name"
       - "--callable"
